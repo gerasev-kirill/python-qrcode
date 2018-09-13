@@ -5,5 +5,6 @@ from setuptools import setup
 setup(
     name='qrcode',
     version='6.1',
+    include_package_data=True,
     packages=['qrcode']
 )
